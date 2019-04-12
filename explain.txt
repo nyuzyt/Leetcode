@@ -1,0 +1,4 @@
+main -> helper("AB", "CD", 0, 0, "") -> helper("AB", "CD", 1, 0, "A") -> helper("AB", "CD", 2, 0, "AB")
+                                                                      -> helper("AB", "CD", 1, 1, "AC")
+                                     -> helper("AB", "CD", 0, 1, "C") -> helper("AB", "CD", 1, 1, "CA")
+                                                                      -> helper("AB", "CD", 0, 2, "CD")
