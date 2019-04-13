@@ -8,7 +8,8 @@ int main() {
 //    string s = "ADOBECODEBANC";
 //    string t = "ABC";
 
-    vector<int> input{5, 5,4, 6};
+    vector<vector<int>> input{{1,0,0,0,0},{1,1,1,1,1},
+                              {1,0,0,0,1},{0,0,9,1,1}};
 
 //    vector<int>v1(10,5);
 //    vector<int>v2(5,10);
@@ -20,7 +21,8 @@ int main() {
 //    TreeNode* root = new TreeNode({1, -5, 11, 1, 2, 4, -2});
 
 //    map<int, double> res = solution->highFive({{1,91},{1,92},{2,93},{2,99},{2,98},{2,97},{1,60},{1,58},{2,100},{1,61}});
-    int res = solution->twoSumClosest({-1, 2, 1, -4}, 4);
+
+    int res = solution->removeObstacle(input);
     cout << res << endl;
 
 //    Composite composite;
