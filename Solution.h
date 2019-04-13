@@ -46,4 +46,5 @@ public:
     int search(vector<int>& nums, int target);
     int substringK(string s, int k);
     int lengthOfLongestSubstringKDistinct(string s, int k);
+    pair<int, int> truck(vector<int> v, int target);
 };

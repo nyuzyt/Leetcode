@@ -1,6 +1,6 @@
 #include "Solution.h"
 #include "Composite.h"
-
+#include "TreeNode.h"
 
 
 int main() {
@@ -8,7 +8,7 @@ int main() {
 //    string s = "ADOBECODEBANC";
 //    string t = "ABC";
 
-    vector<int> input{4,5,6,7,8,1,2,3};
+    vector<int> input{5, 5,4, 6};
 
 //    vector<int>v1(10,5);
 //    vector<int>v2(5,10);
@@ -18,8 +18,8 @@ int main() {
 //    cout << s.size() << endl;
 
 //    solution->printPattern(5);
-    int res = solution->lengthOfLongestSubstringKDistinct("abcabc", 2);
-    cout << res << endl;
+    auto res = solution->truck(input, 10);
+    cout << res.first << " " << res.second << endl;
 
 //    Composite composite;
 //    composite.addRate("bank1", "eurusd", 1.1);
