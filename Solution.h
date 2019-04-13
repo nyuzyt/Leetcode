@@ -54,4 +54,5 @@ public:
     int twoSumClosest(vector<int> nums, int target);
     static int removeObstacle(vector<vector<int>> maze);
     vector<Connection> getLowCost(vector<Connection> connections);
+    vector<string> substringLengthK(string s, int k);
 };

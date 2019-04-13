@@ -22,19 +22,19 @@ int main() {
 
 //    map<int, double> res = solution->highFive({{1,91},{1,92},{2,93},{2,99},{2,98},{2,97},{1,60},{1,58},{2,100},{1,61}});
 
-    vector<Connection> connections;
-    connections.push_back(Connection("A", "B", 1));
-    connections.push_back(Connection("A", "B", 1));
-    connections.push_back(Connection("B", "C", 3));
-    connections.push_back(Connection("B", "E", 2));
-    connections.push_back(Connection("C", "E", 7));
-    connections.push_back(Connection("E", "A", 6));
-    connections.push_back(Connection("D", "E", 5));
-    cout << connections.size() << endl;
+//    vector<Connection> connections;
+//    connections.push_back(Connection("A", "B", 1));
+//    connections.push_back(Connection("A", "B", 1));
+//    connections.push_back(Connection("B", "C", 3));
+//    connections.push_back(Connection("B", "E", 2));
+//    connections.push_back(Connection("C", "E", 7));
+//    connections.push_back(Connection("E", "A", 6));
+//    connections.push_back(Connection("D", "E", 5));
+//    cout << connections.size() << endl;
 
-    auto res = solution->getLowCost(connections);
-    for (auto connection: res) {
-        cout << connection.node1 << " " << connection.node2 << " " << connection.cost << endl;
+    auto res = solution->substringLengthK("cbcacaca", 3);
+    for (string str: res) {
+        cout << str << endl;
     }
 
 //    Composite composite;
