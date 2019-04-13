@@ -5,7 +5,8 @@
 #ifndef LEETCODE_TREENODE_H
 #define LEETCODE_TREENODE_H
 
-#include <cstdlib>
+#include <vector>
+#include <queue>
 using namespace std;
 
 class TreeNode {
@@ -13,6 +14,7 @@ class TreeNode {
         int val;
         TreeNode *left, *right;
         TreeNode(int val);
+        TreeNode(vector<int> array);
 };
 
 

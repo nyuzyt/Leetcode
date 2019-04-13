@@ -17,15 +17,17 @@ int main() {
 //    s.insert(v2);
 //    cout << s.size() << endl;
 
-//    solution->printPattern(5);
-    auto res = solution->truck(input, 10);
-    cout << res.first << " " << res.second << endl;
+    TreeNode* root = new TreeNode({1, -5, 11, 1, 2, 4, -2});
+
+    auto res = solution->findMaxAverageSubtree(root);
+    cout << res->val << endl;
 
 //    Composite composite;
 //    composite.addRate("bank1", "eurusd", 1.1);
 //    composite.addRate("bank2", "eurusd", 1.3);
 //    composite.addRate("bank2", "rmbusd", 6.5);
 //    composite.printCompositeRate();
+
 
     return 0;
 }

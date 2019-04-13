@@ -7,6 +7,7 @@
 #include <algorithm>
 #include <numeric>
 #include "NestedInteger.cpp"
+#include "TreeNode.h"
 using namespace std;
 
 class Solution {
@@ -47,4 +48,5 @@ public:
     int substringK(string s, int k);
     int lengthOfLongestSubstringKDistinct(string s, int k);
     pair<int, int> truck(vector<int> v, int target);
+    TreeNode* findMaxAverageSubtree(TreeNode* root);
 };
