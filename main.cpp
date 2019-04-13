@@ -18,7 +18,7 @@ int main() {
 //    cout << s.size() << endl;
 
 //    solution->printPattern(5);
-    int res = solution->substringK("abaacc", 2);
+    int res = solution->lengthOfLongestSubstringKDistinct("abcabc", 2);
     cout << res << endl;
 
 //    Composite composite;
