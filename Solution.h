@@ -8,6 +8,7 @@
 #include <numeric>
 #include "NestedInteger.cpp"
 #include "TreeNode.h"
+#include "Connection.h"
 using namespace std;
 
 class Solution {
@@ -52,4 +53,5 @@ public:
     map<int, double> highFive(vector<pair<int,int>> records);
     int twoSumClosest(vector<int> nums, int target);
     static int removeObstacle(vector<vector<int>> maze);
+    vector<Connection> getLowCost(vector<Connection> connections);
 };

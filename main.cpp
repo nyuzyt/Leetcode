@@ -22,8 +22,20 @@ int main() {
 
 //    map<int, double> res = solution->highFive({{1,91},{1,92},{2,93},{2,99},{2,98},{2,97},{1,60},{1,58},{2,100},{1,61}});
 
-    int res = solution->removeObstacle(input);
-    cout << res << endl;
+    vector<Connection> connections;
+    connections.push_back(Connection("A", "B", 1));
+    connections.push_back(Connection("A", "B", 1));
+    connections.push_back(Connection("B", "C", 3));
+    connections.push_back(Connection("B", "E", 2));
+    connections.push_back(Connection("C", "E", 7));
+    connections.push_back(Connection("E", "A", 6));
+    connections.push_back(Connection("D", "E", 5));
+    cout << connections.size() << endl;
+
+    auto res = solution->getLowCost(connections);
+    for (auto connection: res) {
+        cout << connection.node1 << " " << connection.node2 << " " << connection.cost << endl;
+    }
 
 //    Composite composite;
 //    composite.addRate("bank1", "eurusd", 1.1);

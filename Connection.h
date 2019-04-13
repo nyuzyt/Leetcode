@@ -9,6 +9,7 @@
 using namespace std;
 
 class Connection {
+public:
     string node1;
     string node2;
     int cost;
