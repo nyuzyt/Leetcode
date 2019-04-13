@@ -57,4 +57,6 @@ public:
     vector<string> substringLengthK(string s, int k);
     int maxMinPath(vector<vector<int>> matrix);
     int maxMinPathdfs(vector<vector<int>> matrix);
+    vector<pair<int, int>> pairSum(int maxDist,
+            vector<pair<int, int>> forward, vector<pair<int, int>> backward);
 };
