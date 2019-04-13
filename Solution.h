@@ -50,4 +50,6 @@ public:
     int lengthOfLongestSubstringKDistinct(string s, int k);
     pair<int, int> truck(vector<int> v, int target);
     TreeNode* findMaxAverageSubtree(TreeNode* root);
+    map<int, double> highFive(vector<pair<int,int>> records);
+    int twoSumClosest(vector<int> nums, int target);
 };
