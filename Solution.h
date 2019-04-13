@@ -55,4 +55,6 @@ public:
     static int removeObstacle(vector<vector<int>> maze);
     vector<Connection> getLowCost(vector<Connection> connections);
     vector<string> substringLengthK(string s, int k);
+    int maxMinPath(vector<vector<int>> matrix);
+    int maxMinPathdfs(vector<vector<int>> matrix);
 };

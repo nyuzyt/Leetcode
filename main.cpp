@@ -8,8 +8,7 @@ int main() {
 //    string s = "ADOBECODEBANC";
 //    string t = "ABC";
 
-    vector<vector<int>> input{{1,0,0,0,0},{1,1,1,1,1},
-                              {1,0,0,0,1},{0,0,9,1,1}};
+    vector<vector<int>> input{{8,4,3,5}, {6,5,9,8}};
 
 //    vector<int>v1(10,5);
 //    vector<int>v2(5,10);
@@ -32,10 +31,8 @@ int main() {
 //    connections.push_back(Connection("D", "E", 5));
 //    cout << connections.size() << endl;
 
-    auto res = solution->substringLengthK("cbcacaca", 3);
-    for (string str: res) {
-        cout << str << endl;
-    }
+    auto res = solution->maxMinPathdfs(input);
+    cout << res;
 
 //    Composite composite;
 //    composite.addRate("bank1", "eurusd", 1.1);
