@@ -68,4 +68,5 @@ public:
             vector<pair<int, int>> forward, vector<pair<int, int>> backward);
     int cityConnection(int cities, int roads, vector<pair<int, int>> availableRoads,
             int constructs, vector<vector<int>> constructRoads);
+    int findDistInBST(vector<int> nums, int num1, int num2);
 };

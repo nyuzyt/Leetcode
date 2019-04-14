@@ -33,12 +33,12 @@ int main() {
 //    cout << connections.size() << endl;
 
 //    LinkedNode* head = new LinkedNode({2, 1, 3, 4, 9, 5, 6, 7, 8});
-    vector<int> arrives({0, 1, 3, 9});
-    vector<int> executions({2, 1, 7, 5});
-
-    vector<pair<int, int>> available = {{1, 4}, {4, 5}, {2, 3}};
-    vector<vector<int>> constructs = {{1, 2, 6}, {1, 3, 10}, {1, 6, 2}, {5, 6, 5}};
-    auto res = solution->cityConnection(6, 3, available, 4, constructs);
+//    vector<int> arrives({0, 1, 3, 9});
+//    vector<int> executions({2, 1, 7, 5});
+//
+//    vector<pair<int, int>> available = {{1, 4}, {4, 5}, {2, 3}};
+//    vector<vector<int>> constructs = {{1, 2, 6}, {1, 3, 10}, {1, 6, 2}, {5, 6, 5}};
+    auto res = solution->findDistInBST({7, 6, 5, 4, 3, 2, 1}, 1, 2);
     cout << res << endl;
 //    Composite composite;
 //    composite.addRate("bank1", "eurusd", 1.1);
