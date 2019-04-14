@@ -6,6 +6,7 @@
 #include <set>
 #include <algorithm>
 #include <numeric>
+#include <string>
 #include "NestedInteger.cpp"
 #include "TreeNode.h"
 #include "Connection.h"
