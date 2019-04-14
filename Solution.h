@@ -64,4 +64,6 @@ public:
     LinkedNode* reverse2ndHalf(LinkedNode* head);
     int gcdOfArray(vector<int> nums);
     double roundRobin(vector<int> arrives, vector<int>executions, int q);
+    vector<pair<int, int>> pairSumTwoPtr(int maxDist,
+            vector<pair<int, int>> forward, vector<pair<int, int>> backward);
 };

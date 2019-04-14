@@ -36,8 +36,10 @@ int main() {
     vector<int> arrives({0, 1, 3, 9});
     vector<int> executions({2, 1, 7, 5});
 
-    auto res = solution->roundRobin(arrives, executions, 2);
-    cout << res << endl;
+    auto res = solution->pairSumTwoPtr(10000, forward, backward);
+    for (auto pair: res) {
+        cout << pair.first << " " << pair.second << endl;
+    }
 //    Composite composite;
 //    composite.addRate("bank1", "eurusd", 1.1);
 //    composite.addRate("bank2", "eurusd", 1.3);
