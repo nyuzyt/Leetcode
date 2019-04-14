@@ -39,10 +39,11 @@ int main() {
 //    vector<pair<int, int>> available = {{1, 4}, {4, 5}, {2, 3}};
 //    vector<vector<int>> constructs = {{1, 2, 6}, {1, 3, 10}, {1, 6, 2}, {5, 6, 5}};
 
-    vector<vector<string>> codeList{{"apple", "apple"}, {"orange", "anything", "orange"}};
-    vector<string> shoppingCart{"orange", "apple", "apple", "orange", "mango", "orange"};
+//    vector<vector<string>> codeList{{"apple", "apple"}, {"orange", "anything", "orange"}};
+//    vector<string> shoppingCart{"orange", "apple", "apple", "orange", "mango", "orange"};
 
-    auto res = solution->checkWinner(codeList, shoppingCart);
+    vector<vector<int>> fields{{1,1,0,2}, {3,1,1,1}};
+    auto res = solution->flatGolfFields(fields);
     cout << res << endl;
 //    Composite composite;
 //    composite.addRate("bank1", "eurusd", 1.1);

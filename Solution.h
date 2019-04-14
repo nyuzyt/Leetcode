@@ -70,4 +70,5 @@ public:
             int constructs, vector<vector<int>> constructRoads);
     int findDistInBST(vector<int> nums, int num1, int num2);
     bool checkWinner(vector<vector<string>> codeList, vector<string> shoppingCart);
+    int flatGolfFields(vector<vector<int>> fields);
 };
