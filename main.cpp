@@ -32,11 +32,12 @@ int main() {
 //    connections.push_back(Connection("D", "E", 5));
 //    cout << connections.size() << endl;
 
-    auto res = solution->pairSum(10000, forward, backward);
-    for (auto pair: res) {
-        cout << pair.first << " " << pair.second << endl;
+    LinkedNode* head = new LinkedNode({2, 1, 3, 4, 9, 5, 6, 7, 8});
+    auto res = solution->reverse2ndHalf(head);
+    while (head) {
+        cout << head->val << endl;
+        head = head->next;
     }
-
 //    Composite composite;
 //    composite.addRate("bank1", "eurusd", 1.1);
 //    composite.addRate("bank2", "eurusd", 1.3);
