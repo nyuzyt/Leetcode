@@ -33,11 +33,8 @@ int main() {
 //    cout << connections.size() << endl;
 
     LinkedNode* head = new LinkedNode({2, 1, 3, 4, 9, 5, 6, 7, 8});
-    auto res = solution->reverse2ndHalf(head);
-    while (head) {
-        cout << head->val << endl;
-        head = head->next;
-    }
+    auto res = solution->gcdOfArray({3, 6, 6, 9});
+    cout << res << endl;
 //    Composite composite;
 //    composite.addRate("bank1", "eurusd", 1.1);
 //    composite.addRate("bank2", "eurusd", 1.3);

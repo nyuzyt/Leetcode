@@ -61,4 +61,5 @@ public:
     vector<pair<int, int>> pairSum(int maxDist,
             vector<pair<int, int>> forward, vector<pair<int, int>> backward);
     LinkedNode* reverse2ndHalf(LinkedNode* head);
+    int gcdOfArray(vector<int> nums);
 };
