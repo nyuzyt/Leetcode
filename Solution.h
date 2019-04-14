@@ -66,4 +66,6 @@ public:
     double roundRobin(vector<int> arrives, vector<int>executions, int q);
     vector<pair<int, int>> pairSumTwoPtr(int maxDist,
             vector<pair<int, int>> forward, vector<pair<int, int>> backward);
+    int cityConnection(int cities, int roads, vector<pair<int, int>> availableRoads,
+            int constructs, vector<vector<int>> constructRoads);
 };

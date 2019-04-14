@@ -36,10 +36,10 @@ int main() {
     vector<int> arrives({0, 1, 3, 9});
     vector<int> executions({2, 1, 7, 5});
 
-    auto res = solution->pairSumTwoPtr(10000, forward, backward);
-    for (auto pair: res) {
-        cout << pair.first << " " << pair.second << endl;
-    }
+    vector<pair<int, int>> available = {{1, 4}, {4, 5}, {2, 3}};
+    vector<vector<int>> constructs = {{1, 2, 6}, {1, 3, 10}, {1, 6, 2}, {5, 6, 5}};
+    auto res = solution->cityConnection(6, 3, available, 4, constructs);
+    cout << res << endl;
 //    Composite composite;
 //    composite.addRate("bank1", "eurusd", 1.1);
 //    composite.addRate("bank2", "eurusd", 1.3);
