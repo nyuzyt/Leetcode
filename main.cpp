@@ -42,8 +42,7 @@ int main() {
 //    vector<vector<string>> codeList{{"apple", "apple"}, {"orange", "anything", "orange"}};
 //    vector<string> shoppingCart{"orange", "apple", "apple", "orange", "mango", "orange"};
 
-    vector<vector<int>> fields{{1,1,0,2}, {3,1,1,1}};
-    auto res = solution->flatGolfFields(fields);
+    auto res = solution->findMinStep("WWRRBBWW", "WRBRW");
     cout << res << endl;
 //    Composite composite;
 //    composite.addRate("bank1", "eurusd", 1.1);
